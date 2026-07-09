@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/14 21:33:11 by acamelo           #+#    #+#             */
-/*   Updated: 2026/07/09 13:25:05 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/09 13:29:39 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,7 @@ void	ft_print_combn(int n)
 			i++;
 		}
 		if (digits[i] < 10 - n)
-		{
 			write(1, ", ", 2);
-		}
 		i = n - 1;
 		while (i >= 0 && digits[i] == 9 - (n - 1 - i))
 		{
@@ -51,9 +49,7 @@ void	ft_print_combn(int n)
 			}
 		}
 		else
-		{
 			break;
-		}
 	}
 }
 int main ()
