@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 19:38:54 by acamelo           #+#    #+#             */
-/*   Updated: 2026/07/09 13:28:00 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/09 13:28:32 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ void	ft_is_negative(int n)
 	if (n < 0)
 		write(1, &u, 1);
 	else
-	{
 		write(1, &p, 1);
-	}
 }
 
 /*int	main(void)

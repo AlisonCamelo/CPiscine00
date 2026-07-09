@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/14 21:07:45 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/14 21:21:20 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/09 13:28:43 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ void	ft_write(char a, char b, char c)
 	write (1, &b, 1);
 	write (1, &c, 1);
 	if (a != '7')
-	{
 		write (1, ", ", 3);
-	}
 }
 
 void	ft_print_comb(void)
