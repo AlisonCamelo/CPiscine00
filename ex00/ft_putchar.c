@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acamelo <acamelo@student.42madrid.com      +#+  +:+       +#+        */
+/*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 18:55:24 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/02 19:32:40 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/09 13:57:41 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_putchar(char a)
 {
-	write(1, &c, 1);
+	write(1, &a, 1);
 }
 
 /*int	main(void)
