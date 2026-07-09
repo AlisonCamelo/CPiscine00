@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/14 21:33:11 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/16 10:38:17 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/09 13:24:50 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ void	ft_putnbr(int nb)
 		nb = -nb;
 	}
 	if (nb >= 10)
-	{
 		ft_putnbr(nb / 10);
-	}
 	c = '0' + nb % 10;
 	write(1, &c, 1);
 }

@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/14 21:33:11 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/14 21:36:54 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/09 13:24:38 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,7 @@ void	writett(int a, int b)
 	c = ('0' + (b % 10));
 	write(1, &c, 1);
 	if (!(a == 98 && b == 99))
-	{
 		write(1, ", ", 2);
-	}
 }
 
 void	ft_print_comb2(void)
